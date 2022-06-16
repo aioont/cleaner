@@ -16,8 +16,8 @@ Run
 
 Example
 
-[!Image]
-[!Image](https://github.com/aioont/cleaner/blob/main/CLEAN%20TOOL.jpg)
+<img src="https://github.com/aioont/cleaner/blob/main/CLEAN%20TOOL.jpg" alt="Image" >
+
 
 
 
