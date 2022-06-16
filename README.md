@@ -14,6 +14,10 @@ Run
 
 > ./clean.sh
 
+Example
+
+[!Image]
+[!Image](https://github.com/aioont/cleaner/blob/main/CLEAN%20TOOL.jpg)
 
 
 
@@ -21,4 +25,3 @@ Run
 
 
 
-[!https://github.com/aioont/cleaner/blob/main/CLEAN%20TOOL.jpg]
