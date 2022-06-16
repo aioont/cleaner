@@ -7,13 +7,18 @@ echo 'How many largest folder needs to find : '
 read num
 echo "$num largest files : "
 du -ha | sort -k1hr | head -n $num
-while true; do
-    read -p "Do you want to delete any [y/n] :" yn
-    case $yn in
-        [Yy]* ) echo "Enter directory to delete : "
+while :
+do
+  read -p "Do you want to delete any [y/n] :" yn
+  case $yn in
+        [Yy]* ) ls -a;
+                echo "Enter directory or folder or file to delete : "
                 read deldir
-                rm -rf $deldir; break;;
+                rm -rf $deldir;
+                ls -a;;
         [Nn]* ) exit;;
         * ) echo "Please answer yes or no.";;
     esac
 done
+
+
